@@ -1,0 +1,89 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+keys.json
+android/key.properties
+android/*.jks
+
+# --- added for GitHub backup: build output, dependencies, secrets ---
+node_modules/
+build/
+dist/
+dist-package/
+.dart_tool/
+.gradle/
+.next/
+.venv/
+venv/
+__pycache__/
+.idea/
+.cxx/
+.kotlin/
+Pods/
+coverage/
+.firebase/
+.claude/
+*.exe
+*.asar
+*.aab
+*.apk
+*.log
+local.properties
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.example.*
+*.jks
+*.keystore
+key.properties
+keys.json
+admob.properties
+*service-account*.json
+*service_account*.json
+*firebase-adminsdk*.json
+*.pem
+*.p12
